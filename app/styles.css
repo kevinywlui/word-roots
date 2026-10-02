@@ -2,3 +2,14 @@
 @media(min-width:1400px){.header-note{display:block}nav{transform:translateX(-50%)}}
 @media(max-width:760px){.shell{padding:0 22px}header{height:78px}.brand{font-size:23px}nav{position:fixed;top:auto;bottom:0;left:0;right:0;transform:none;background:#fcfbf6f5;backdrop-filter:blur(10px);border-top:1px solid var(--line);justify-content:space-around;padding:8px 8px calc(8px + env(safe-area-inset-bottom));z-index:3;gap:0}nav a{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:85px;font-size:22px}nav a span{font-size:11px}nav a.active{border-bottom:0;color:#234c3e;background:#edf0e4;border-radius:10px}.hero{padding-top:35px;gap:0;grid-template-columns:1fr}.hero h1{font-size:49px}.hero .lead{font-size:14px}.root-art{display:none}.eyebrow{font-size:9px;letter-spacing:1.7px}.stats{margin:0 0 33px;padding:19px 0}.stats>div{gap:5px;flex-direction:column}.stats strong{font-size:24px}.stats div>span:last-child{font-size:10px}.stat-icon{display:none}.section-heading h2{font-size:23px}.section-heading .pill{font-size:8px;padding:7px}.home-grid{grid-template-columns:1fr;gap:20px}.unit{padding:18px 16px;gap:12px}.unit strong{font-size:16px}.unit>span>span{font-size:11px}aside{display:grid;gap:10px}.review-card{padding:24px}.note-card{padding:18px 10px}.root-list{grid-template-columns:1fr}.filters{align-items:stretch;flex-direction:column;gap:10px}.page-heading h1{font-size:39px}.settings-card{padding:22px}.study{margin-top:20px}.question{font-size:33px}.flashcard{padding:25px 18px}.flashcard h1{font-size:48px}.completion{margin:40px auto}.completion h1{font-size:44px}footer{padding-bottom:115px}.primary{max-width:100%}.study .primary{width:100%}}
 @media(prefers-reduced-motion:no-preference){button{transition:background .15s,border-color .15s}.flashcard{animation:appear .2s ease}@keyframes appear{from{opacity:.5;transform:translateY(5px)}to{opacity:1;transform:none}}}
+.gloss{font:italic 18px Georgia,serif;color:var(--muted)}
+.source{font:italic 14px/1.6 Georgia,serif;color:#6d7a64}
+.parts{color:var(--muted);font-size:13px}
+.feedback .parts{display:block;margin-top:6px}
+.unit.fast .unit-number{border-style:dashed}
+.chips span.missed{border-color:#c59577;background:#f6e5da}
+dl{margin:6px 0 10px}
+dt{font-weight:650;margin-top:10px}
+dd{margin:2px 0 0}
+dt.impostor{color:#9b5f3c}
+.flashcard .source{margin:0 0 6px}

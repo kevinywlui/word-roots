@@ -55,12 +55,16 @@ The app works at a domain root or in a subdirectory. No server API, account, thi
 
 ## Features
 
-- Eight guided units, 24 roots, reveal cards, meaning questions, and word inference exercises.
-- Reviews at 1, 3, 7, 14, and 30 days; mistakes retry after 10 minutes.
-- Daily goal of six completed root reviews, local-calendar streak, searchable library.
-- Responsive layout, keyboard controls, reduced-motion support, offline shell.
+Written for educated adult native speakers; see [../TARGET_AUDIENCE.md](../TARGET_AUDIENCE.md).
 
-Curriculum is a small starter collection related to the accompanying book, not a complete etymological dictionary. Word explanations describe useful connections without assuming a compound's literal pieces are its full modern meaning.
+- 92 items in 19 units: 24 familiar roots (*port*, *bio*…), 32 Latin roots, 20 Greek roots, and 16 Latin and Greek prefixes, with notes on how prefixes change form.
+- Familiar roots get a quick check: one question each. A correct answer schedules them 14 days out.
+- Each item has its source word, common words, rare words with breakdowns, and often a false friend and a cognate or note.
+- Lessons: guess the root from its words, then infer a rare word and spot the false friend. Reviews mix meaning, shared-root, rare-word and false-friend questions, using a different word each time.
+- Reviews at 1, 3, 7, 14 and 30 days; mistakes retry after 10 minutes. Daily goal of 10 reviews, streak, searchable library.
+- Keyboard: 1–4 to answer, Enter to continue. Responsive layout, reduced-motion support, offline shell.
+
+Etymologies favor accuracy over tidiness. Each `parts` field explains a word's history; it doesn't claim the pieces add up to the modern meaning. Backups that mention retired roots still import; those cards are dropped.
 
 ## Files and updates
 
